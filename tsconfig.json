@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "watch": true,
+    "rootDir": ".",
+  },
+  "include": ["./src/**/*", "./*.ts"],
+  "exclude": [
+    "./node_modules/"
+  ]
+}
