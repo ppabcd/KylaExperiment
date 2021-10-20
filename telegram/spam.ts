@@ -12,9 +12,6 @@ export class Spam {
         if (this.listPotentialSpam[userId].message === message) {
             this.listPotentialSpam[userId].count++
         }
-        if(this.listPotentialSpam[userId] > 5){
-            return true
-        }
-        return false
+        return this.listPotentialSpam[userId] > 5;
     }
 }
